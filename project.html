@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKINZ</title>
+    <link rel="stylesheet" href="style.css">
+    
+ 
+    <style>
+      /* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7ebd6; /* Light beige background */
+    color: #362e2b; /* Dark brown text color */
+    line-height: 1.6;
+}
+
+/* Style the header section */
+.header {
+    background-color: #d8a878; /* Orangish-brown background */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #4d1818; 
+    text-shadow: 2px 2px 5px #0000004f;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff; /* White text color for navbar links */
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #0000004f;
+}
+
+/* Style the cover content */
+.cover {
+    margin: 20px auto;
+    background-image: url('skinz.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+    padding: 50px 0;
+}
+
+.cover h1 {
+    font-size: 3em;
+    color: #fff; /* White text color for cover heading */
+    text-shadow: 2px 2px 5px #0000004f;
+}
+
+.cover p {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px #0000001f;
+    color: #fff; /* White text color for cover paragraph */
+}
+
+/* Style the contact section */
+.contact {
+    background-color: #e0b589; /* Light orangish-brown background */
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #362e2b; /* Dark brown text color */
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #d8a878; /* Orangish-brown submit button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #ba825f; /* Darker shade on hover */
+}
+
+/* Style the contact details section */
+.contact-details {
+    background-color: #f0d9c1; /* Lighter orangish-brown background */
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #362e2b; /* Dark brown text color */
+}
+
+.contact-details p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #362e2b; /* Dark brown text color */
+}
+
+.contact-details a {
+    margin: 0 5px;
+}
+
+</style>
+        
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <div class="navbar">
+                <h1>SKINZ</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">SERVICES</a></li>
+                        <li><a href="index.html">OUR EXPERTS</a></li>
+                        <li><a href="index.html">ABOUT</a></li>
+                        <li><a href="index.html"><span>APPOINTMENT</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container">
+                <div class="cover">
+                    <div class="sequence">
+                        <h1><span>The Shape Of Confidence</span></h1>
+                        <p>SKIN SPECIALIST AND VENEREOLOGIST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Remaining content will reflect information about dermatology services, expertise, testimonials, etc. -->
+    <!-- You can modify and add content here to describe the dermatology practice -->
+
+    <!-- Contact section can remain mostly similar with form fields for appointments or inquiries -->
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Please contact us for any skin-related concerns or to book an appointment.</p>
+        <!-- Form fields for name, email, message, and a submit button -->
+        <form action="submit_form.php" method="post">
+            <input type="text" name="full_name" placeholder="Full Name" required><br>
+            <input type="email" name="email" placeholder="Email Address" required><br>
+            <textarea name="message" cols="50" rows="5" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+<hr>
+    <!-- Contact details for the dermatology practice -->
+    <div class="contact-details">
+        <h2>Phone</h2>
+        <p>(123) 456-7890</p>
+        <p>Mon - Fri: 9am - 5pm</p>
+<hr>
+        <h2>Address</h2>
+        <p>Jinnah Memorial Hospital</p>
+        <p>Rawalpindi, Pakistan</p>
+<hr>
+        <h2>Connect With Us</h2>
+        <!-- Social media icons linked to respective profiles -->
+        <a href="#"><img src="c:\Users\Admin\Pictures\facebook.jpeg" alt="Facebook"></a>
+        <a href="#"><img src="c:\Users\Admin\Pictures\twitter.jpeg" alt="Twitter"></a>
+        <a href="#"><img src="c:\Users\Admin\Pictures\insta.jpeg" alt="Instagram"></a>
+    </div>
+
+</body>
+
+</html>
